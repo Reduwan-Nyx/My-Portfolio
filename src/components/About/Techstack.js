@@ -5,18 +5,14 @@ import {
     DiJavascript1,
     DiReact,
     DiNodejs,
-    DiBootstrap,
-    DiPython,
-    DiDjango, DiJava, DiRasberryPi
+    DiBootstrap, DiMongodb, DiHtml5, DiHeroku, DiCss3, DiFirebase, 
 } from "react-icons/di";
 import {SiJupyter} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -27,23 +23,24 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiFirebase />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiDjango />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiJupyter />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiJava />
+            <DiCss3 />
         </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
       </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiRasberryPi />
-        </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col> 
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <DiHeroku />
+      </Col>
+       
     </Row>
   );
 }

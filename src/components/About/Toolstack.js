@@ -1,25 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
   SiVisualstudiocode,
-  SiPostman,
   SiHeroku,
+  SiWindows,
+  SiFigma,
+  SiNetlify,
+  SiAdobephotoshop,
   SiGithub
 } from "react-icons/si";
 import {
-    DiAtlassian,
-    DiAws,
     DiDatabase,
-    DiDocker,
     DiGit,
-    DiMysql,
-    DiPostgresql,
     DiStackoverflow,
     DiTerminal,
-    DiUbuntu,
+ DiUbuntu,
     DiVisualstudio,
-    DiWindows
+    DiWindows,
 } from "react-icons/di";
 
 
@@ -27,35 +24,24 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiWindows />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiUbuntu />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
             <DiTerminal />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiWindows />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiVisualstudiocode />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiVisualstudio />
+            <SiFigma />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiAws />
+            <SiNetlify />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiAtlassian />
+            <SiAdobephotoshop />
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiDocker />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiPostman />
-        </Col>
+       
         <Col xs={4} md={2} className="tech-icons">
             <DiGit />
         </Col>
@@ -70,12 +56,6 @@ function Toolstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiHeroku />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiMysql />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiPostgresql />
         </Col>
     </Row>
   );
